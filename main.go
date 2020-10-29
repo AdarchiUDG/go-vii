@@ -42,8 +42,6 @@ func main() {
 		inputs = append(inputs, readLine(in))
 	}
 
-	fmt.Println(len(inputs))
-
 	sort.Strings(inputs)
 	ascending.WriteString(strings.Join(inputs, "\n"))
 
